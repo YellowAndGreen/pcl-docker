@@ -1,0 +1,19 @@
+"E:\CLion\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "E:\All Files\Programmaing\pcl-docker\example_project\cloud_viewer" -B "E:\All Files\Programmaing\pcl-docker\example_project\cloud_viewer\cmake-build-debug"
+CMake Error at CMakeLists.txt:9 (find_package):
+  By not providing "FindPCL.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "PCL", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "PCL" (requested
+  version 1.11) with any of the following names:
+
+    PCLConfig.cmake
+    pcl-config.cmake
+
+  Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+  to a directory containing one of the above files.  If "PCL" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/All Files/Programmaing/pcl-docker/example_project/cloud_viewer/cmake-build-debug/CMakeFiles/CMakeOutput.log".
